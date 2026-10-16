@@ -1,0 +1,19 @@
+
+SAY "Give me some words and I'll sort them."
+
+user_words = ArrayList()
+
+LOOP FOREVER
+  guest = ask
+  IF guest.length = 0 THEN LEAVE
+  user_words.add(String(guest))
+END
+SAY
+
+Collections.sort(user_words)
+sorted_words = user_words
+
+SAY "Here you go:" String.join(", ", sorted_words)
+SAY
+SAY "Or just:"
+SAY sorted_words
