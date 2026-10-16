@@ -1,0 +1,17 @@
+
+SAY 'Please enter a starting year (the earliest year in the range).'
+start_year = ask
+SAY 'Please enter an ending year (the latest year in the range).'
+end_year = ask
+SAY 'The leap years are:'
+
+year = start_year
+
+DO WHILE year <= end_year
+  IF (year // 4) == 0 THEN DO
+    IF (year // 100) \== 0 | year // 400 == 0 THEN DO
+      SAY year
+    END
+  END
+  year = year + 1
+END
