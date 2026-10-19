@@ -46,9 +46,10 @@ Planned (Not in any particular order):
 * Ruby
 * Python
 * Perl
+* Lua
+* JavaScript
 * Java
 * Kotlin
-* JavaScript
 * Rust
 * Go
 * C
