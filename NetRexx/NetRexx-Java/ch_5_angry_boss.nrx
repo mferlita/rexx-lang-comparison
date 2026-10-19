@@ -1,4 +1,0 @@
-
-SAY "WHAT!?"
-want = ask
-SAY 'WHADDYA MEAN "' || want.upper || '"!? YOU''RE FIRED!'

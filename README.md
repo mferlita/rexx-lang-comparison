@@ -5,23 +5,53 @@ cREXX) and other common programming languages.
 ## Why
 While Rosetta Code is good for minor comparisons, its lack of consistent styling
 and completeness makes side-by-side comparisons difficult. This is not very
-helpful for newcomers, learners, or someone wanting to know which programming 
-language would best suit their needs.
+helpful for newcomers, learners, or someone wanting to know if Rexx would  suit 
+their needs.
 
-## How  
-The examples found here use Learn to Program, 3rd Edition, by Chris Pine as a 
-base. They were originally my solutions to the exercises or else were from the 
-answer key (I have labeled them accordingly). The solutions are done in Ruby 
-first and then translated as closely as possible while emphasizing each 
-language's idiomatic style. This is to ensure that each example is as similar as
-possible for a fair comparison. Where a direct translation is difficult or 
-awkward, the idiomatic version is preferred. If the idioms diverge significantly,
-the difference is noted in a comment. 
+## Methodology
+The examples found here use a suite of programs which exhibit some of the most 
+common language dimensions. The languages are translated as closely as possible 
+while emphasizing each language's idiomatic style. This is to ensure that each 
+example is as similar as possible for a fair comparison. Where a direct 
+translation is difficult or awkward, the idiomatic version is preferred. If the 
+idioms diverge significantly, the difference is noted in a comment. 
 
-*This is still a work in progress and will cover all "A Few Things to Try" sections.*
+*This is still a work in progress. See guidelines.md for rules on contributing*
+*That, however, is also a work in progress at the moment.*
+
+## The Suite
+| Program               | Dimensions revealed              |
+|-----------------------|----------------------------------|
+| FizzBuzz              | Syntax, Boilerplate              |
+| Sum a CSV Column      | I/O, error handling              |
+| Shapes and Area       | Type system, data modeling       |
+| Fetch and Parse JSON  | Async, stdlib, dependencies      |
+| Protocol Parser       | Pattern matching, expressiveness |
+| Mandelbrot set        | Performance, concurrency         |
+
+### Descriptions
+* FizzBuzz:
+* Sum a CSV Column: 
+* Shapes and Area: 
+* Fetch and Parse JSON:
+* Protocol Parser:
+* Mandelbrot set: 
 
 ## Rexx Implementations and Other Languages Compared
-under construction...
+Planned:
+* NetRexx
+* ooRexx
+* Regina Rexx
+* cRexx
+* Ruby
+* Python
+* Perl
+* Rust
+* Go
+* C
+* C++
+* Java
+* Kotlin
 
 ## Running the Examples
 under construction...
