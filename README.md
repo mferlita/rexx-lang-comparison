@@ -30,12 +30,12 @@ idioms diverge significantly, the difference is noted in a comment.
 | Mandelbrot set        | Performance, concurrency         |
 
 ### Descriptions
-* FizzBuzz:
-* Sum a CSV Column: 
-* Shapes and Area: 
-* Fetch and Parse JSON:
-* Protocol Parser:
-* Mandelbrot set: 
+* *FizzBuzz*
+* *Sum a CSV Column*
+* *Shapes and Area*
+* *Fetch and Parse JSON*
+* *Protocol Parser*
+* *Mandelbrot set*
 
 ## Rexx Implementations and Other Languages Compared
 Planned:
