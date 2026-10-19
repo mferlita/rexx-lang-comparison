@@ -20,7 +20,7 @@ idioms diverge significantly, the difference is noted in a comment.
 *That, however, is also a work in progress at the moment.*
 
 ## The Suite
-| Program               | Dimensions revealed              |
+| Program               | Dimensions covered               |
 |-----------------------|----------------------------------|
 | FizzBuzz              | Syntax, Boilerplate              |
 | Sum a CSV Column      | I/O, error handling              |
