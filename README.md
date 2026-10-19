@@ -38,7 +38,7 @@ idioms diverge significantly, the difference is noted in a comment.
 * *Mandelbrot set*
 
 ## Rexx Implementations and Other Languages Compared
-Planned:
+Planned (Not in any particular order):
 * NetRexx
 * ooRexx
 * Regina Rexx
@@ -46,12 +46,14 @@ Planned:
 * Ruby
 * Python
 * Perl
+* Java
+* Kotlin
+* JavaScript
 * Rust
 * Go
 * C
 * C++
-* Java
-* Kotlin
+* C#
 
 ## Running the Examples
 under construction...
