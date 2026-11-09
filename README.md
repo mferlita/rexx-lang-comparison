@@ -31,7 +31,6 @@ difference is noted in a comment.
 | ShapesAndArea         | Type system, data modeling       |
 | FindTasks             | Async, stdlib, dependencies      |
 | PngParser             | Pattern matching, expressiveness |
-| IsStringNumeric       | Error Handling                   |
 | MandelbrotSet         | Performance, concurrency         |
 
 ### Descriptions
@@ -46,8 +45,6 @@ and a circle.
 implemented in Rexx. 
 * *PngParser:* Read a byte stream from a PNG file and produce a list of pairs 
 consisting of the chunk type and its data
-* *IsStringNumeric:* From Rosetta Code. A boolean function which takes in a string 
-and tells whether or not it is a numeric string
 * *MandelbrotSet:* Calculate the fractal and report the program's speed and 
 correctness.
 
