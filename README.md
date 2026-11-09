@@ -1,61 +1,70 @@
 # rexx-lang-comparison
 A comparison of the different Rexx implementations (Regina, ooRexx, NetRexx, 
-cREXX) and other common programming languages.
+CREXX) and other common programming languages.
 
 ## Why
-While Rosetta Code is good for minor comparisons, its lack of consistent styling
-and completeness makes side-by-side comparisons difficult. This is not very
-helpful for newcomers, learners, or someone wanting to know if Rexx would  suit 
-their needs.
+Between Rosetta Code and benchmarks like the Benchmark Game, it is difficult to 
+find a proper, standardized comparison of syntax between different languages. 
+While Rosetta Code is good for minor comparisons, its lack of consistent 
+styling and completeness makes side-by-side comparisons difficult. And while 
+the Benchmark Game is interesting for comparing performance, those programs are 
+not usually coded idiomatically or in a way that is easy to understand. Neither 
+of these are helpful for newcomers, learners, or someone wanting to know if 
+Rexx would suit their needs.
 
 ## Methodology
-The examples found here use a suite of programs which exhibit some of the most 
-common language dimensions. The languages are translated as closely as possible 
+Found here is a suite of programs which exhibit some of the most common 
+language dimensions. The languages are translated as closely as possible 
 while emphasizing each language's idiomatic style. This is to ensure that each 
-example is as similar as possible for a fair comparison. Where a direct 
-translation is difficult or awkward, the idiomatic version is preferred. If the 
-idioms diverge significantly, the difference is noted in a comment. 
+example is as similar as possible for a fair comparison. Languages pass a
+linter if one is available. If a direct translation is difficult or awkward, 
+the idiomatic version is preferred. If the idioms diverge significantly, the 
+difference is noted in a comment. 
 
-*This is still a work in progress. See guidelines.md for rules on contributing*
-*That, however, is also a work in progress at the moment.*
+*This is still a work in progress. See [guidelines.md](guidelines.md) for rules on contributing.*
 
 ## The Suite
 | Program               | Dimensions covered               |
 |-----------------------|----------------------------------|
 | FizzBuzz              | Syntax, Boilerplate              |
-| Sum a CSV Column      | I/O, error handling              |
-| Shapes and Area       | Type system, data modeling       |
-| Fetch and Parse JSON  | Async, stdlib, dependencies      |
-| Protocol Parser       | Pattern matching, expressiveness |
-| Mandelbrot set        | Performance, concurrency         |
+| SumCSVColumn          | I/O, error handling              |
+| ShapesAndArea         | Type system, data modeling       |
+| FindTasks             | Async, stdlib, dependencies      |
+| PngParser             | Pattern matching, expressiveness |
+| MandelbrotSet         | Performance, concurrency         |
 
 ### Descriptions
-* *FizzBuzz*
-* *Sum a CSV Column*
-* *Shapes and Area*
-* *Fetch and Parse JSON*
-* *Protocol Parser*
-* *Mandelbrot set*
+* *FizzBuzz:* From Rosetta Code. A simple program which counts incrementally 
+from 1 to 100 and replaces numbers divisible by three with "Fizz," numbers 
+divisible by five with "Buzz," and numbers divisible by both with "FizzBuzz."
+* *SumCSVColumn:* Takes the numerical values in a single column from a [CSV file](https://github.com/datablist/sample-csv-files/blob/f97f6cfdf0aede55f2730225a5de17ddac11a443/README.md) 
+and finds the sum.
+* *ShapesAndArea:* From [w3resource](https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-10.php). Defines and calculates the area of a rectangle, a triangle, 
+and a circle.
+* *FindTasks:* From Rosetta Code. Finds all tasks on Rosetta Code which are not 
+implemented in Rexx. 
+* *PngParser:* Read a byte stream from a PNG file and produce a list of pairs 
+consisting of the chunk type and its data
+* *MandelbrotSet:* Calculate the fractal and report the program's speed and 
+correctness.
 
-## Rexx Implementations and Other Languages Compared
-Planned (Not in any particular order):
-* NetRexx
-* ooRexx
-* Regina Rexx
-* cRexx
+## The Rexx Family In Context
+By Typing / Memory Management / Paradigm
+
+### Dynamic / GC / Object-Oriented
+* *ooRexx*
 * Ruby
 * Python
-* Perl
-* Lua
 * JavaScript
+
+### Static / GC / Object-Oriented
+* *NetRexx*
 * Java
 * Kotlin
-* Rust
-* Go
-* C
-* C++
 * C#
 
-## Running the Examples
-under construction...
-
+### Static / No GC / Procedural
+* *CREXX*
+* Go
+* C
+* Rust
