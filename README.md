@@ -2,6 +2,8 @@
 A comparison of the different Rexx implementations (Regina, ooRexx, NetRexx, 
 CREXX) and other common programming languages.
 
+*This is still a work in progress. See [guidelines.md](guidelines.md) for rules on contributing.*
+
 ## Why
 Between Rosetta Code and benchmarks like the Benchmark Game, it is difficult to 
 find a proper, standardized comparison of syntax between different languages. 
@@ -20,8 +22,6 @@ example is as similar as possible for a fair comparison. Languages pass a
 linter if one is available. If a direct translation is difficult or awkward, 
 the idiomatic version is preferred. If the idioms diverge significantly, the 
 difference is noted in a comment. 
-
-*This is still a work in progress. See [guidelines.md](guidelines.md) for rules on contributing.*
 
 ## The Suite
 | Program               | Dimensions covered               |
