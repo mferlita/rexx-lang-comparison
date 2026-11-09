@@ -43,9 +43,9 @@ and finds the sum.
 and a circle.
 * *FindTasks:* From Rosetta Code. Finds all tasks on Rosetta Code which are not 
 implemented in Rexx. 
-* *PngParser:* Read a byte stream from a PNG file and produce a list of pairs 
-consisting of the chunk type and its data
-* *MandelbrotSet:* Calculate the fractal and report the program's speed and 
+* *PngParser:* Reads a byte stream from a PNG file and produces a list of pairs 
+consisting of the chunk type and its data.
+* *MandelbrotSet:* Calculates the fractal and reports the program's speed and 
 correctness.
 
 ## The Rexx Family In Context
