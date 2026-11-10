@@ -48,22 +48,12 @@ consisting of the chunk type and its data.
 * *MandelbrotSet:* Calculates the fractal and reports the program's speed and 
 correctness.
 
-### The Rexx Family In Context
-#### Open Object Rexx
-* Ruby
-* Python
-* JavaScript
-* Lua
-
-#### NetRexx
-* Java
-* Kotlin
-* C#
-
-#### CREXX
-* Go
-* C
-* Rust
+### Rexx In Context
+| Rexx Implmentation | Compared To                                    |
+|--------------------|------------------------------------------------|
+| ooRexx             | Ruby, Python, JavaScript (Node.js), Lua        |
+| NetRexx            | Java, Kotlin, C#                               |
+| CREXX              | Go, C, Rust                                    |
 
 ## Further Reading
 [ooRexx Documentation](https://sourceforge.net/projects/oorexx/files/oorexx-docs/5.2.0/)  
