@@ -27,7 +27,7 @@ difference is noted in a comment.
 | Program               | Dimensions covered               |
 |-----------------------|----------------------------------|
 | FizzBuzz              | Syntax, Boilerplate              |
-| SumCSVColumn          | I/O, error handling              |
+| SumCsvColumn          | I/O, error handling              |
 | ShapesAndArea         | Type system, data modeling       |
 | FindTasks             | Async, stdlib, dependencies      |
 | PngParser             | Pattern matching, expressiveness |
@@ -37,7 +37,7 @@ difference is noted in a comment.
 * *FizzBuzz:* From Rosetta Code. A simple program which counts incrementally 
 from 1 to 100 and replaces numbers divisible by three with "Fizz," numbers 
 divisible by five with "Buzz," and numbers divisible by both with "FizzBuzz."
-* *SumCSVColumn:* Takes the numerical values in a single column from a [CSV file](https://github.com/datablist/sample-csv-files/blob/f97f6cfdf0aede55f2730225a5de17ddac11a443/README.md) 
+* *SumCsvColumn:* Takes the numerical values in a single column from a [CSV file](https://github.com/datablist/sample-csv-files/blob/f97f6cfdf0aede55f2730225a5de17ddac11a443/README.md) 
 and finds the sum.
 * *ShapesAndArea:* From [w3resource](https://www.w3resource.com/cpp-exercises/oop/cpp-oop-exercise-10.php). Defines and calculates the area of a rectangle, a triangle, 
 and a circle.
