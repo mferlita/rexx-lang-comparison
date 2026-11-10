@@ -1,5 +1,5 @@
 # rexx-lang-comparison
-A comparison of the different Rexx implementations (Regina, ooRexx, NetRexx, 
+A syntax comparison of the different Rexx implementations (ooRexx, NetRexx, 
 CREXX) and other common programming languages.
 
 *This is still a work in progress. See [guidelines.md](guidelines.md) for rules on contributing.*
@@ -49,22 +49,18 @@ consisting of the chunk type and its data.
 correctness.
 
 ### The Rexx Family In Context
-Organized by Typing / Memory Management / Paradigm
-
-#### Dynamic / GC / Object-Oriented
-* *ooRexx*
+#### Open Object Rexx
 * Ruby
 * Python
 * JavaScript
+* Lua
 
-#### Static / GC / Object-Oriented
-* *NetRexx*
+#### NetRexx
 * Java
 * Kotlin
 * C#
 
-#### Static / No GC / Procedural
-* *CREXX*
+#### CREXX
 * Go
 * C
 * Rust
