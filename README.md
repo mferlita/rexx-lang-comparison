@@ -48,23 +48,29 @@ consisting of the chunk type and its data.
 * *MandelbrotSet:* Calculates the fractal and reports the program's speed and 
 correctness.
 
-## The Rexx Family In Context
-By Typing / Memory Management / Paradigm
+### The Rexx Family In Context
+Organized by Typing / Memory Management / Paradigm
 
-### Dynamic / GC / Object-Oriented
+#### Dynamic / GC / Object-Oriented
 * *ooRexx*
 * Ruby
 * Python
 * JavaScript
 
-### Static / GC / Object-Oriented
+#### Static / GC / Object-Oriented
 * *NetRexx*
 * Java
 * Kotlin
 * C#
 
-### Static / No GC / Procedural
+#### Static / No GC / Procedural
 * *CREXX*
 * Go
 * C
 * Rust
+
+## Further Reading
+[ooRexx Documentation](https://sourceforge.net/projects/oorexx/files/oorexx-docs/5.2.0/)  
+[NetRexx Documentation](https://www.netrexx.org/documentation.nsp)  
+[CREXX Documentation](https://crexx.org/#docs)  
+[Rexx History](https://www.rexxla.org/rexxlang/history/index.srsp)  
